@@ -1,6 +1,6 @@
 This project is an implementation of a toxicity detection model using deep learning techniques. The model is designed to identify and classify toxic comments in text data. Toxicity in text can include hate speech, offensive language, and other harmful content.
 
-Dataset was taken from kaggle. The model is stored in "toxicity.h5" it can be used in any machine with the following provided tensorflow has already been installed-
+Dataset was taken from kaggle. The model is stored in "toxicity.h5" it can be used on any machine with the following command line provided tensorflow has already been installed-
 model = tf.keras.models.load_model('toxicity.h5')
 
 The model is built using TensorFlow.
